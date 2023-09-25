@@ -30,5 +30,13 @@
 		"body": [
 			"dict()"
 		]
+	},
+
+	"Function": {
+		"prefix": "cdFunction",
+		"body": [
+			"def ${5:function_name}(${4:parameter}):"
+			"    $6pass"
+		]
 	}
 }
