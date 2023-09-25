@@ -1,4 +1,12 @@
 {
+	"Main Class": {
+		"prefix": "cdMainClass",
+		"body": [
+			"class ${9:class_name}:",
+			"    def __int__(self):",
+			"        $1pass"
+		]
+	},
 	"Print to console": {
 		"prefix": "cdPrint",
 		"body": [
@@ -29,6 +37,14 @@
 		"prefix": "cdDictionary",
 		"body": [
 			"dict()"
+		]
+	},
+
+	"if_statement": {
+		"prefix": "cdIf",
+		"body": [
+			"if ${7:condition}:",
+			"    $8pass"
 		]
 	},
 
