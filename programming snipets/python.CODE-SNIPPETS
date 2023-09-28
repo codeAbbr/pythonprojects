@@ -3,7 +3,7 @@
 		"prefix": "cdMainClass",
 		"body": [
 			"class ${9:class_name}:",
-			"    def __int__(self):",
+			"    def __init__(self):",
 			"        $1pass"
 		]
 	},
@@ -53,6 +53,14 @@
 		"body": [
 			"def ${5:function_name}(${4:parameter}):"
 			"    $6pass"
+		]
+	},
+
+	"Iterator": {
+		"prefix": "cdIter",
+		"body": [
+			"iter()",
+			"next()"
 		]
 	}
 }
