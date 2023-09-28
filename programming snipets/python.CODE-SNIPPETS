@@ -63,4 +63,50 @@
 			"next()"
 		]
 	}
+
+	"Length Function": {
+		"prefix": "cdLenFunction",
+		"body": [
+			"len()"
+		]
+	},
+
+	"Exception Blocks": {
+		"prefix": "cdException",
+		"body": [
+			"try:",
+			"  $3pass",
+			"except:",
+			"  $4pass",
+			"finally:",
+			"  $5pass"
+		]
+	},
+
+	"Input Funtion": {
+		"prefix": "cdInput",
+		"body": [
+			"input(${4:Code Here})"
+		]
+	},
+
+	"Type Function": {
+		"prefix": "cdType",
+		"body": [
+			"type()"
+		]
+	},
+	"File Function": {
+		"prefix": "cdFile",
+		"body": [
+			"open(${1:file_path},${2:mode})"
+		]
+	},
+
+	"Lambda": {
+		"prefix": "cdLambda",
+		"body": [
+			"lambda ${1:arguments} : ${2:expression}"
+		]
+	}
 }
